@@ -22,12 +22,12 @@ describe( 'datasets-iris-versicolor-petal', function tests() {
 	});
 
 	it( 'should have a `len` property', function test() {
-		assert.hasProperty( data, 'len' );
+		assert.property( data, 'len' );
 		assert.isArray( data.len );
 	});
 
 	it( 'should have a `width` property', function test() {
-		assert.hasProperty( data, 'width' );
+		assert.property( data, 'width' );
 		assert.isArray( data.width );
 	});
 
